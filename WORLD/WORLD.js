@@ -16,7 +16,7 @@ let cameraOff = false;
 
 
 function setup(){
-    cav = createCanvas(windowWidth*2,windowHeight*2);
+    cav = createCanvas(windowWidth*0.8,windowHeight*0.8);
     frameRate(25);
 
     // the handpose
