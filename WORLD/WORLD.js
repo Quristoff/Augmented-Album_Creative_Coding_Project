@@ -95,7 +95,7 @@ function draw(){
 }
 
 function keyPressed(){
-    if (keyCode == 83){
+    if (keyCode === 83){
         saveCanvas('myCanvas', 'png');    
     }
 }
